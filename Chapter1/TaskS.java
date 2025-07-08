@@ -1,4 +1,4 @@
-public class TaskSheet111 {
+public class TaskS {
     public static void main(String[] args){
         System.out.println("Kamusta Mundo!");
     }
