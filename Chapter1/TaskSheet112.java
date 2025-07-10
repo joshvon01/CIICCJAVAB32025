@@ -1,10 +1,9 @@
 class TaskSheet112 {
 
     public static void main(String[] args) {
-        // Declare and initialize integer variables
         int a = 10;
         int b = 5;
-        int result; // Variable to store the results of operations
+        int result;
 
         System.out.println("Simple Assignment with Arithmetic Operators");
         System.out.println("Values: a = " + a + ", b = " + b);
@@ -26,27 +25,23 @@ class TaskSheet112 {
         System.out.println("a % b = " + result);
 
         System.out.println("\nCompound Assignments with Arithmetic Operators");
+        a = 10;
+        b = 5;
         System.out.println("Values: a = " + a + ", b = " + b);
 
-        // Compound Addition (a = a + b; is equivalent to a += b;)
-        a += b; // a becomes a + b (10 + 5 = 15)
-        System.out.println("After a += b; (a = a + b): a = " + a); // a is now 15
+        a += b; // Compound Addition (a = a + b; is equivalent to a += b;)
+        System.out.println("a += b; (a = a + b): a = " + a);
 
-        // Compound Subtraction (a = a - b; is equivalent to a -= b;)
-        a -= b; // a becomes a - b (15 - 5 = 10)
-        System.out.println("After a -= b; (a = a - b): a = " + a); // a is now 10
+        a -= b; // Compound Subtraction (a = a - b; is equivalent to a -= b;)
+        System.out.println("a -= b; (a = a - b): a = " + a); 
 
-        // Compound Multiplication (a = a * b; is equivalent to a *= b;)
-        a *= b; // a becomes a * b (10 * 5 = 50)
-        System.out.println("After a *= b; (a = a * b): a = " + a); // a is now 50
+        a *= b; // Compound Multiplication (a = a * b; is equivalent to a *= b;)
+        System.out.println("a *= b; (a = a * b): a = " + a);
 
-        // Compound Division (a = a / b; is equivalent to a /= b;)
-        a /= b; // a becomes a / b (50 / 5 = 10)
-        System.out.println("After a /= b; (a = a / b): a = " + a); // a is now 10
+        a /= b; // Compound Division (a = a / b; is equivalent to a /= b;)
+        System.out.println("a /= b; (a = a / b): a = " + a);
 
-        // Compound Modulus (a = a % b; is equivalent to a %= b;)
-        a %= b; // a becomes a % b (10 % 5 = 0)
-        System.out.println("After a %= b; (a = a % b): a = " + a); // a is now 0
-
+        a %= b; // Compound Modulus (a = a % b; is equivalent to a %= b;)
+        System.out.println("a %= b; (a = a % b): a = " + a);
     }
 }
