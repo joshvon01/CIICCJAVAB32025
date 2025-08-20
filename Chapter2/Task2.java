@@ -23,7 +23,7 @@ public class Task2 {
                               charW + digitZero + charR + charL + charD + charSpace +
                               versionNumber + charSpace + isTrue;
 
-        System.out.println(outputString);
+        System.out.println(outputString + " HI");
 
     }
 }
