@@ -16,7 +16,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book Title: \"" + this.title + "\"" +
+        return "Title: \"" + this.title + "\"" +
                "\nAuthor: \"" + this.author + "\"" +
                "\nYear Published: " + this.yearPublished +
                "\nPrice: $" + String.format("%.2f", this.price);
