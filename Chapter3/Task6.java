@@ -17,7 +17,7 @@ public class Task6 {
             }
 
             if (number % 2 == 0) {
-                System.out.println(number);
+                System.out.println(number + "HI");
             }
         }
     }
