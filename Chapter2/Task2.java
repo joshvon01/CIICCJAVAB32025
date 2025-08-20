@@ -19,7 +19,7 @@ public class Task2 {
 
         boolean isTrue = true;
 
-        String outputString = charH + "" + digitThree + arbitraryInt + charL + charL + digitZero + charSpace +
+        String outputString = charH + "" + digitThree + charL + charL + digitZero + charSpace +
                               charW + digitZero + charR + charL + charD + charSpace +
                               versionNumber + charSpace + isTrue;
 
