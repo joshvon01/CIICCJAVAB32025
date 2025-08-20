@@ -17,7 +17,7 @@ public class Task10 {
         Student[] students = new Student[] {
             new Student("Morgan", "Freeman"),
             new Student("Brad", "Pitt"),
-            new Student("Kevin", "Spacey"),
+            new Student("Kevin", "Spaceyaa"),
         };
 
         for (Student s : students) {
