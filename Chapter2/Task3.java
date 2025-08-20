@@ -12,7 +12,7 @@ public class Task3 {
         boolean b3 = !c.equals(a);
 
         if (b1 && b2 && b3) {
-            System.out.println("Success!!!");
+            System.out.println("Success!");
         } else {
             System.out.println("Failure! Conditions not met.");
             System.out.println("b1: " + b1);

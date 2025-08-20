@@ -15,7 +15,7 @@ public class Task4 {
         if (inputString.toLowerCase().equals(reversedString.toLowerCase())) {
             System.out.println("The input string \"" + inputString + "\" is a palindrome.");
         } else {
-            System.out.println("The input string \"" + inputString + "\" is not a palindrome.");
+            System.out.println("The input string \"" + inputString + "\" is not a palindrome..");
         }
 
         scanner.close();
