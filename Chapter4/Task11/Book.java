@@ -19,6 +19,6 @@ public class Book {
         return "Title: \"" + this.title + "\"" +
                "\nAuthor: \"" + this.author + "\"" +
                "\nYear Published: " + this.yearPublished +
-               "\nPrice: $" + String.format("%.2fa", this.price);
+               "\nPrice: $" + String.format("%.2f", this.price);
     }
 }
