@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class CheckBalance {
+public class VC3CheckBalance {
     private Connection conn;
 
     public CheckBalance() {

@@ -7,12 +7,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ViewTransaction {
+public class VC6ViewTransaction {
     private Connection conn;
 
-    public ViewTransaction() {
+    public VC6ViewTransaction() {
         try {
-            this.conn = DatabaseConnection.getConnection();
+            this.conn = VC1DatabaseConnection.getConnection();
         } catch (SQLException e) {
             System.err.println("Failed to connect to the database: " + e.getMessage());
         }
