@@ -6,12 +6,12 @@ import java.sql.SQLException;
 
 public class VCA5CashTransfer {
     private Connection conn;
-    private CheckBalance checkBalance;
+    private VCA3CheckBalance checkBalance;
 
-    public CashTransfer() {
+    public VCA5CashTransfer() {
         try {
-            this.conn = DatabaseConnection.getConnection();
-            this.checkBalance = new CheckBalance();
+            this.conn = VCA1DatabaseConnection.getConnection();
+            this.checkBalance = new VCA3CheckBalance();
         } catch (SQLException e) {
             System.err.println("Failed to connect to the database: " + e.getMessage());
         }

@@ -10,9 +10,9 @@ import java.util.List;
 public class VCA6ViewTransaction {
     private Connection conn;
 
-    public ViewTransaction() {
+    public VCA6ViewTransaction() {
         try {
-            this.conn = DatabaseConnection.getConnection();
+            this.conn = VCA1DatabaseConnection.getConnection();
         } catch (SQLException e) {
             System.err.println("Failed to connect to the database: " + e.getMessage());
         }

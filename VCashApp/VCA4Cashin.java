@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class VCA4Cashin {
     private Connection conn;
 
-    public Cashin() {
+    public VCA4Cashin() {
         try {
-            this.conn = DatabaseConnection.getConnection();
+            this.conn = VCA1DatabaseConnection.getConnection();
         } catch (SQLException e) {
             System.err.println("Failed to connect to the database: " + e.getMessage());
         }

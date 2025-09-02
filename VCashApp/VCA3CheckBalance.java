@@ -8,9 +8,9 @@ import java.sql.SQLException;
 public class VCA3CheckBalance {
     private Connection conn;
 
-    public CheckBalance() {
+    public VCA3CheckBalance() {
         try {
-            this.conn = DatabaseConnection.getConnection();
+            this.conn = VCA1DatabaseConnection.getConnection();
         } catch (SQLException e) {
             System.err.println("Failed to connect to the database: " + e.getMessage());
         }

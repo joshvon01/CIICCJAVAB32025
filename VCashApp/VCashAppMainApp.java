@@ -3,12 +3,12 @@ package VCashApp;
 import java.util.Scanner;
 import java.util.List;
 
-public class VCashAppMain {
-    private static UserAuthentication auth = new UserAuthentication();
-    private static CheckBalance balanceChecker = new CheckBalance();
-    private static Cashin cashInHandler = new Cashin();
-    private static CashTransfer transferHandler = new CashTransfer();
-    private static ViewTransaction transactionViewer = new ViewTransaction();
+public class VCashAppMainApp {
+    private static VCA2UserAuthentication auth = new VCA2UserAuthentication();
+    private static VCA3CheckBalance balanceChecker = new VCA3CheckBalance();
+    private static VCA4Cashin cashInHandler = new VCA4Cashin();
+    private static VCA5CashTransfer transferHandler = new VCA5CashTransfer();
+    private static VCA6ViewTransaction transactionViewer = new VCA6ViewTransaction();
     private static String loggedInUserId = null;
 
     public static void main(String[] args) {
