@@ -7,8 +7,8 @@ import java.sql.SQLException;
 // A simple class to handle the database connection using JDBC.
 // NOTE: This uses a hardcoded connection string. In a real application,
 // this should be stored securely and not in the source code.
-public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/gcash_db";
+public class VCA1DatabaseConnection {
+    private static final String URL = "jdbc:mysql://localhost:3306/vcash_db";
     private static final String USER = "your_username";
     private static final String PASSWORD = "your_password";
 

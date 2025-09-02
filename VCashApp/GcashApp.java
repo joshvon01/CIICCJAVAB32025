@@ -3,7 +3,7 @@ package VCashApp;
 import java.util.Scanner;
 import java.util.List;
 
-public class GcashApp {
+public class VCashAppMain {
     private static UserAuthentication auth = new UserAuthentication();
     private static CheckBalance balanceChecker = new CheckBalance();
     private static Cashin cashInHandler = new Cashin();

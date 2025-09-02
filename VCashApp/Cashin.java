@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Cashin {
+public class VCA4Cashin {
     private Connection conn;
 
     public Cashin() {

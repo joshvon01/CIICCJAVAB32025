@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class UserAuthentication {
+public class VCA2UserAuthentication {
     private Connection conn;
 
     public UserAuthentication() {

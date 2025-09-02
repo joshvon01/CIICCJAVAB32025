@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ViewTransaction {
+public class VCA6ViewTransaction {
     private Connection conn;
 
     public ViewTransaction() {
