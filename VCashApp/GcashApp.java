@@ -1,4 +1,4 @@
-package GcashApp;
+package VCashApp;
 
 import java.util.Scanner;
 import java.util.List;
