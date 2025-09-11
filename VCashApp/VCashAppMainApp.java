@@ -16,7 +16,7 @@ public class VCashAppMainApp {
         while (true) {
             if (loggedInUserId == null) {
                 // Not logged in, show login/registration menu
-                System.out.println("--- GcashApp Menu ---");
+                System.out.println("--- VCashApp Menu ---");
                 System.out.println("1. Login");
                 System.out.println("2. Register");
                 System.out.println("3. Exit");
