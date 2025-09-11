@@ -33,8 +33,8 @@ class Transaction {
     private String userId;
     private String type; // "cash-in" or "transfer"
     private double amount;
-    private String senderId; // New field to store the sender's ID
-    private String recipientId; // New field to store the recipient's ID
+    private String senderId; 
+    private String recipientId;
 
     // Constructor for cash-in transactions
     public Transaction(String userId, String type, double amount) {
@@ -76,6 +76,7 @@ public class GcashApp {
         while (currentUser == null) {
             System.out.println("\n1. Login");
             System.out.println("2. Register");
+            System.out.println("3. Exit");
             System.out.print("Choose an option: ");
             String choice = scanner.nextLine();
 
@@ -85,6 +86,10 @@ public class GcashApp {
                     break;
                 case "2":
                     register();
+                    break;
+                case "3":
+                    System.out.println("Exiting application. Goodbye!");
+                    System.exit(0); // Terminate the program
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
@@ -213,6 +218,9 @@ public class GcashApp {
                 return;
             }
 
+            // Display current balance before transfer
+            System.out.println("Current balance: " + currentUser.getBalance());
+
             // Perform transfer
             currentUser.setBalance(currentUser.getBalance() - amount);
             recipient.setBalance(recipient.getBalance() + amount);
@@ -220,7 +228,9 @@ public class GcashApp {
             // Record a single transaction for the transfer
             transactions.add(new Transaction(currentUser.getId(), recipient.getId(), "transfer", amount));
             
-            System.out.println("Transfer of " + amount + " to " + recipient.getName() + " successful. New balance is " + currentUser.getBalance());
+            // Display new balance after transfer
+            System.out.println("Transfer of " + amount + " to " + recipient.getName() + " successful.");
+            System.out.println("New balance: " + currentUser.getBalance());
 
         } catch (java.util.InputMismatchException e) {
             System.out.println("Invalid input. Please enter a number.");
